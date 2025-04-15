@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import ShipPlacement from './ShipPlacement';
 import Board from './Board';
 
-const socket = io('http://localhost:4000');
+const socket = io('https://battleship-wqaj.onrender.com');
 
 function App() {
   // Add initial state values
